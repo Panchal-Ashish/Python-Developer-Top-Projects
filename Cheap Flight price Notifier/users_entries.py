@@ -1,6 +1,6 @@
 import requests
 
-USERS_SHEETY_ENDPOINT = "https://api.sheety.co/45b16c9a9784d95e5305b68f0f4e7ec5/day39,40CheapFlightAlert/users"
+USERS_SHEETY_ENDPOINT = "Your sheety API endpoint for sheet which contains details of users"
 
 
 
