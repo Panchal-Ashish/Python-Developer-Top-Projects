@@ -7,12 +7,12 @@ COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = "PV5T197N5V69GTX9"
-NEWS_API_KEY = "38ab674a9565476db8ca3d58e2f7e159"
+STOCK_API_KEY = "Your stock API KEY"
+NEWS_API_KEY = "Your news API Key"
 
-account_sid = 'AC2859004428bce7afcad28175bb8e4d98'  # twilio
-auth_token = 'cbcb1221265a2c170eec585158537556' # twilio
-"Ygfm9m4ToQoxnFNpQfC7ptYI7_DrxiJG4mnixd3g"
+account_sid = 'Your twilio aaccount sid'  # twilio
+auth_token = 'Your twilio auh token' # twilio
+
 "If you lose your phone, or don't have access to your verification device, this code is your failsafe to access your account."
 
 UP_DOWN = None
