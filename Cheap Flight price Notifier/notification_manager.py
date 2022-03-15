@@ -3,13 +3,13 @@ from flight_data import *
 from twilio.rest import Client
 import smtplib
 
-my_email = "job.ashish28@gmail.com"
-password = "Ashish_28"
+my_email = "Your Mail Id"
+password = "Your pswd"
 
-TWILIO_ACC_ID = "AC2859004428bce7afcad28175bb8e4d98"
-TWILIO_AUTH_TOKEN = "cbcb1221265a2c170eec585158537556"
-TWILIO_FROM_NUMBER = "+17082942621"
-TWILIO_TO_NUMBER = '+917506058102'
+TWILIO_ACC_ID = "YOUR TWILIO_ACC_ID"
+TWILIO_AUTH_TOKEN = "YOUR TWILIO_AUTH_TOKEN "
+TWILIO_FROM_NUMBER = "YOUR TWILIO_FROM_NUMBER"
+TWILIO_TO_NUMBER = 'YOUR TWILIO_TO_NUMBER'
 
 class NotificationManager:
 
