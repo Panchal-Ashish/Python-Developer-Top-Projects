@@ -105,8 +105,8 @@ if abs(difference_percent) >= 0.5:
     #     message = client.messages.create \
     #             (
     #             body=f"{STOCK_NAME} {UP_DOWN} {difference_percent}% \nHeadline: {title} \nBrief: {description} \n{article['url']}",
-    #             from_='+18482891741',
-    #             to='+917506058102'
+    #             from_='YOUR_TWILIO_SMS_FROM_NUMBER',
+    #             to='TO_NUMBER'
     #         )
 
 #TODO 9. - Send each article as a separate message via Twilio.
@@ -115,8 +115,8 @@ if abs(difference_percent) >= 0.5:
         message = client.messages.create\
                 (
             body= article,
-            from_='+18482891741',
-            to='+917506058102'
+            from_='YOUR_TWILIO_SMS_FROM_NUMBER',
+            to='TO_NUMBER'
         )
 
         # print(message.sid)
