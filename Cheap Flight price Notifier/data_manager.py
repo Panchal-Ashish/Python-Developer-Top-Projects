@@ -1,6 +1,6 @@
 # import requests
 #
-# SHEETY_ENDPOINT = "https://api.sheety.co/45b16c9a9784d95e5305b68f0f4e7ec5/day39,40CheapFlightAlert/prices"
+# SHEETY_ENDPOINT = "https link to your sheet on sheety api"
 #
 # class DataManager:
 #
@@ -28,7 +28,7 @@
 
 import requests
 
-SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/45b16c9a9784d95e5305b68f0f4e7ec5/day39,40CheapFlightAlert/prices"
+SHEETY_PRICES_ENDPOINT = "https link to your sheet on sheety api"
 
 
 class DataManager:
